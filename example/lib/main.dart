@@ -65,7 +65,7 @@ class _MyAppState extends State<MyApp> {
                   CupertinoButton.filled(
                       child: Text("Login With Whatsapp"),
                       onPressed: () {
-                        initiateWhatsappLogin("whatsapp://send?phone=918882921758&text=\u200E\u200E\u200B\u200C\u200B\u200B\u200B\u200B\u200B\u200C\u200D\u200C\u200B\u200D\u200CHi%20WhatsApp!%0APlease%20verify%20my%20number%20with%20Android%20Example%20App.");
+                        initiateWhatsappLogin("whatsapp://send?phone=YOUR_INTENT_URI&text=\u200E\u200E\u200B\u200C\u200B\u200B\u200B\u200B\u200B\u200C\u200D\u200C\u200B\u200D\u200CHi%20WhatsApp!%0APlease%20verify%20my%20number%20with%20Android%20Example%20App.");
                       }),
                   Text(_userToken)
                 ],
